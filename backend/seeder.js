@@ -4,7 +4,7 @@ const colors = require("colors");
 const users = require("./data/users");
 const products = require("./data/products");
 const User = require("./models/userModel");
-const Product = require("./models/productMdel");
+const Product = require("./models/productModel");
 const Order = require("./models/orderModel");
 const connectDB = require("./config/db");
 
